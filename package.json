@@ -4,10 +4,10 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js",
-        "start:prod": "set NODE_ENV=production & node server.js",
-        "debug": "ndb server.js"
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "start:prod": "set NODE_ENV=production & node app.js",
+        "debug": "ndb app.js"
     },
     "author": "Omkar Bhostekar",
     "license": "ISC",
