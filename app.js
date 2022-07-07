@@ -4,6 +4,7 @@ const uuid = require('uuid')
 const app = require('./app');
 const http = require('http').Server(app)
 var io = require('socket.io')(http)
+io.set('transports', ['websocket'])
 const port = process.env.PORT || 3000
 
 dotenv.config({ path: './config/config.env' })
